@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std ;
+int main()
+{
+    int i=1, n; 
+    unsigned long long product=1 ;
+    cout<< "enter the number:";
+    cin >> n;
+
+    while (i<=n)
+    {
+    product=product*i;
+    i++ ;
+    } 
+    cout<< "the factorial of " << n << " is :"<< product;
+        return 0;
+}
